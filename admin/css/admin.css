@@ -1,0 +1,583 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 15px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}	
+nav ul li{
+	display: inline-block;
+	padding-right: 60px;
+	position: relative;
+}
+.navbar .menu li a{
+	color: #555;
+	text-decoration: none;
+	font-size: 18px;
+	margin-left: 30px;
+	display: block;
+
+}
+.navbar .menu li a:hover{
+	color: cyan;
+
+}
+.header .container{
+	width: 100%;
+	margin-bottom: 2px;
+	padding-bottom: 5px;
+}
+/*----------------------------------*/
+#row{
+	margin-left: 5%;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*------------------So trang----------------*/
+#bgden{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	position: fixed;
+	top:0;
+	left: 0;
+	display: none;
+	z-index: 5;
+}
+
+/*-----footer------*/
+.footer{
+	background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 20px 0;
+}
+
+.footer p{
+	color: #8a8a8a;
+}
+.footer	h3{
+	color: white;
+	margin-bottom: 20px;
+}
+.app-logo{
+	margin-top: 20px;
+}
+
+.app-logo img{
+	width: 140px;
+}
+.footer_col_3 , .footer_col_4{
+	flex-basis: 12%;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
+
+.footer hr{
+	border: none;
+	margin: 20px 0;
+	height: 1px;
+	background: #b5b5b5;
+
+}
+.copy-right{
+	text-align: center;
+}
+
+.menu-icon{
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+}
+/*----------thongtinsanpham----------*/
+.thongtinsp,.thongtinkh{
+	margin-left: 5%;
+}
+.thongtin{
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	color: white;
+	border: solid 1px black;
+	background-color: red;
+}
+#idsp{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#imgsp{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#tensp{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 30px;
+}
+#loaisp{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 30px;
+}
+#giasp{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 30px;
+}
+#chucnangsp,#chucnangkh{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 30px;
+}
+.col_4{
+	min-width: 30px;
+	height: 100px;
+	width: 243px;
+	border: solid 1px black;
+}
+.col_4 img{
+	width: 240px;
+	height: 98px;
+}
+h1{
+	width: 121px;
+	height: 100px;
+	font-size: 20px;
+	line-height: 100px;
+	text-align: center;
+	border: solid 1px black; 
+}
+h2{
+	width: 364px;
+	height: 100px;
+	font-size: 20px;
+	line-height: 100px;
+	text-align: center;
+	border: solid 1px black; 
+}
+h5{
+	width: 243px;
+	height: 100px;
+	font-size: 20px;
+	line-height: 100px;
+	text-align: center;
+	border: solid 1px black;
+}
+/*---------phantrang-----------*/
+#phantrang{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	display: inline-table;
+	margin-bottom: 50px;
+}
+#phantrang div{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px
+	border: solid 1px black;
+	border-radius: 50%;
+	color: black;
+	display: inline-table;
+	cursor: pointer;
+}
+#phantrang div:hover{
+	background-color: black;
+	color: red;
+}
+#phantrangkh{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	display: inline-table;
+}
+#phantrangkh div{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px
+	border: solid 1px black;
+	border-radius: 50%;
+	color: black;
+	display: inline-table;
+	cursor: pointer;
+}
+#phantrangkh div:hover{
+	background-color: black;
+	color: red;
+}
+/*------------Themsanpham-------------*/
+#themsanpham{
+	margin-left: 5%;
+	margin-bottom: 15px;
+	width: 45%;
+	float: left;
+	box-shadow: 5px 5px 5px black;
+	height: 280px;
+}
+.dulieuinput{
+	margin-top: 5px;
+	margin-left: 5%;
+	float: left;
+	width: 25%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	text-align: right;
+}
+input{
+	margin-top: 5px;
+	float: right;
+	margin-right: 5%;
+	width: 65%;
+	height: 30px;
+	border-right: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-bottom: solid 1px lightgray;
+	outline: none;
+}
+select,option{
+	margin-top: 5px;
+	float: left;
+	width: 20%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15px;
+}
+input[type=file]{
+	margin-top: 5px;
+	float: left;
+	width: 65%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15px;
+	border-bottom: 0px;
+}
+/*------Timsanpham------*/
+#timsanpham{
+	float: left;
+	height: 180px;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 40%;
+	box-shadow: 5px 5px 5px black; 
+}
+input[type=search]{
+	float: left;
+	margin-left: 5%;
+	width: 90%;
+	height: 30px;
+}
+/*-----Chucnang--------*/
+.chucnang{
+	width: 121px;
+	height: 100px;
+	font-size: 20px;
+	line-height: 100px;
+	text-align: center;
+	border: solid 1px black;
+}
+button{
+	margin: auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: black;
+	color: red;
+}
+/*------thongtinkhachhang--------*/
+#hotenkh{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#userkh{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#emailkh{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#idkh{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#tinhtrangkh{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+/*--------Suasanpham---------*/
+.error1{
+	color: red;
+	font-size: 14px;
+	text-align: center;
+	display: none;
+}
+.sua{
+	margin-left: 120px !important;
+	width: 72%;
+	position: absolute;
+	top: 200px;
+	z-index: 7;
+	position: fixed;
+
+}
+#formthem{
+	width: 80%;
+	height: 300px;
+	position: absolute;
+	top: 100px;
+	z-index: 7;
+	position: fixed;
+	display: none;
+
+}
+
+
+#themsanpham{
+	background-color: #fff;
+	height: 330px;
+}
+#btnthemsp{
+	position: absolute;
+	margin-left: 70px;
+	top: 140px;
+	cursor: pointer;
+	right: 70px;
+}
+#btnthemsp img:hover{
+	transform: scale(1.1);
+}
+.sua #formsua{
+	width: 100%;
+	height: 350px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 30px;
+	display: none;
+
+}
+
+#suasanpham {
+	margin-left: 5%;
+	margin-bottom: 15px;
+	width: 80%;
+	float: left;
+	box-shadow: 5px 5px 5px black;
+	height: 280px;
+	background-color: #fff;
+}
+
+#X{
+	position: absolute;
+	top: 0px;
+	right: 5px;
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+	line-height: 25px;
+	color: red;
+	background-color: black;
+	border-radius: 50%;
+	cursor: pointer;
+}
+#X1{
+	position: absolute;
+	top: 0;
+	right: 30%;
+	float:right;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+	line-height: 25px;
+}
+#X:hover, #X1:hover{
+	color: blue;
+}
+
+
+/*-------thongtindonhang--------*/
+#idbill{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#idkhachhang{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#ngaydathang{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#tongtien{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#tinhtrangbill{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#chitietbill{
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+h6{
+	width: 182px;
+	height: 100px;
+	font-size: 20px;
+	line-height: 100px;
+	text-align: center;
+	border: solid 1px black;
+}
+/*--------ChiTietHoaDon---------*/
+.chitiet{
+	position: absolute;
+	top: 100px;
+	left: 432px;
+	width: 486px;
+	z-index: 7;
+}
+.chitiet #formchitiet{
+	width: 100%;
+	display: none;
+
+}
+#chitietthongtinbill{
+	z-index: 7;
+	margin: 5%;
+	width: 90%;
+	float: left;
+	box-shadow: 5px 5px 5px black;
+	background-color: #fff;
+
+}
+.thongtinkhachhang{
+	width: 100%;
+}
+.thongtinnhanhang{
+	width: 100%;
+}
+.thongtinhoadon{
+	width: 100%;
+}
+.info{
+	float: left;
+	width: 35%;
+	text-align: right;
+}
+.output{
+	float: right;
+	width: 65%;
+	text-align: center;
+}
+.chucnangbill{
+	width: 182px;
+	height: 100px;
+	font-size: 20px;
+	line-height: 100px;
+	text-align: center;
+	border: solid 1px black;
+}
+#khungsearchadmin{
+	width: 100%;
+	width: 300px;
+	background-color: #fff;
+	color: black;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	font-size: 20px;
+	display: none;
+}
+#baosearch{
+	position: absolute;
+	left: 130px;
+}
+
+i.fa.fa-search{
+	cursor: pointer;
+}
+#chonsearch{
+	width: 60px;
+	position: absolute;
+	left: -63px;
+	display: none;
+}
